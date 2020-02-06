@@ -1,0 +1,27 @@
+{
+  "name": "bk_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/xxx44552/bk_bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/xxx44552/bk_bot/issues"
+  },
+  "homepage": "https://gitlab.com/xxx44552/bk_bot#readme",
+  "dependencies": {
+    "fake-ajax": "0.0.1",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0",
+    "window": "^4.2.6"
+  }
+}

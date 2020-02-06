@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="popup.css">
+<head>
+</head>
+<body>
+<div class="setting">
+    <h3 id="test">Настройки</h3>
+    <input id="hide-chat" type="checkbox" checked/>
+    <label id="label-hide-chat" for="hide-chat">Показать чат</label>
+    <div>
+        <button id="autobonus">Автобонус</button>
+    </div>
+</div>
+<hr>
+<div class="send-mess">
+    <h3>Отправка сообщений</h3>
+    <textarea id="send-mess"></textarea>
+    <select id="time-send-mess">
+        <option value="180000">3 мин</option>
+        <option value="300000">5 мин</option>
+        <option value="500000">10 мин</option>
+        <option value="900000">15 мин</option>
+        <option value="1200000">20 мин</option>
+        <option value="1800000">30 мин</option>
+    </select>
+    <button id="save-send-mess">Сохранить</button>
+    <button id="start-send-mess">Запуск</button>
+    <button id="stop-send-mess">Остановить</button>
+</div>
+<hr>
+<div class="find-string">
+    <h3>Поиск по чату</h3>
+    <input id="find-regex" class="change" type="text" placeholder="Поисковая строка"/>
+    <input id="return-mess" class="change" type="text" placeholder="Ответное собщение"/>
+    <span>Повторить через - </span>
+    <select id="time-find-string">
+        <option value="180000">3 мин</option>
+        <option value="300000">5 мин</option>
+        <option value="500000">10 мин</option>
+        <option value="900000">15 мин</option>
+        <option value="1200000">20 мин</option>
+        <option value="1800000">30 мин</option>
+    </select>
+    <button id="save-find-string">Сохранить</button>
+    <button id="start-find-func">Поиск..</button>
+    <button id="stop-find-func">Остановить</button>
+</div>
+</body>
+<script src="index.js"></script>
+</html>

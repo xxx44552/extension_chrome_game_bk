@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    }
+body {
+    padding: 10px;
+}
+p {
+    margin-bottom: 10px;
+    }
+
+input[type="text"] {
+    margin: 5px 0;
+    width: 100%;
+    padding: 2px 10px;
+    display: block;
+    }
+
+.find-string {
+    width: 250px;
+    }
+
+h3 {margin: 5px 0}
+
+select {
+    margin: 5px 0;
+    }
+
+button {
+    margin: 2px 0;
+    }
+
+textarea {
+    width: 100%;
+    min-height: 50px;
+    }
+div {
+    margin: 5px 0;
+    }
